@@ -10,6 +10,7 @@ int binary_search(int arr[], int n, int key){
         if(key>arr[mid]){
             s=mid+1;
         }
+        //-------go to the left part of the array--------------//
         else{
             e=mid-1;
         }

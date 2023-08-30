@@ -12,5 +12,6 @@ bool linear_search(int arr[], int n, int element){
 int main(){
     int element=22;
     int num[40]={1,2,3,4,5,6,7,8,9};
+    
     cout<<linear_search(num, 9, 8);
 }
