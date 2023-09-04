@@ -44,7 +44,10 @@ int lastocc(int arr[], int n, int key){
 }
 int main(){
     int num[]={1,2,3,3,3,3,3,3,3,4};
+    int a =firstocc(num,10,3 );
+    int b=lastocc(num, 10,3);
     cout<<firstocc(num,10,3 )<<endl;
-    cout<<lastocc(num, 10,3);
+    cout<<lastocc(num, 10,3)<<endl;
+    cout<<"NO. of 3's in array is:-)"<<endl<<b-a+1<<endl;
 
 }
