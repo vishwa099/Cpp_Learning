@@ -12,7 +12,7 @@ void sortOne(int arr[], int n){
         while(arr[i]==0 && i<j){
             i++;                                     //------Array  ki dono trf se pointer chalaya---------//
         }
-        while(arr[j]==1 && i<j){                    //---------three pointer concept bhi ho skta hai kya----------//
+        while(arr[j]==1 && i<j){                    //---------three pointer concept bhi ho skta hai kya???----------//
             j--;
         }
         if(i<j){
