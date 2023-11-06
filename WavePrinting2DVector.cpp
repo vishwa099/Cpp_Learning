@@ -10,7 +10,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-vector <int> wavePrint(vector <vector<int>> arr, int nRows , int mCols){
+vector <int> wavePrint(vector <vector<int>> arr, int nRows , int mCols){  //-------This function returning vector as well as accepting a 2d vector.
     vector <int> ans;
 
     for(int Col=0; Col<mCols; Col++){

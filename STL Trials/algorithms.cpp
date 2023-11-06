@@ -4,7 +4,7 @@
 
 using namespace std;
 int main(){
-    vector<int> v;
+    vector<int> v;  //--------Vector initialization
     v.push_back(2);
     v.push_back(4);
     v.push_back(5);
@@ -13,6 +13,8 @@ int main(){
     v.push_back(9);
 
     cout<<"Finding 8 in the vector v-->"<<binary_search(v.begin(), v.end(),8)<<endl;           //------Returns boolean value o and 1--------//
+    //-----binary_search(start_point, end_point, searching_key)------format of binary_search attribute--------//
+    
 
     // int a=5, b=4;
     // swap(a,b);
